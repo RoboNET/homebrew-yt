@@ -1,13 +1,13 @@
 class Yt < Formula
   desc "Yandex Tracker CLI — NativeAOT, JSON-first, four auth methods"
   homepage "https://github.com/RoboNET/YandexTrackerCLI"
-  version "0.6.2"
+  version "0.6.3"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/RoboNET/YandexTrackerCLI/releases/download/v#{version}/yt-osx-arm64.tar.gz"
-      sha256 "94505a0528260a92962d81120db476e54df6461d250a6a4c7c15f46db7e2721e"
+      sha256 "9daa3e602f8c49f33339c25c78707f2a3d5f0f44378770800e3b6caa2d68347e"
     end
     on_intel do
       odie "Intel Mac is not supported. Use Apple Silicon or build from source."
@@ -17,11 +17,11 @@ class Yt < Formula
   on_linux do
     on_intel do
       url "https://github.com/RoboNET/YandexTrackerCLI/releases/download/v#{version}/yt-linux-x64.tar.gz"
-      sha256 "51d58e4c59011e79f5800fcb3fed60094e0d5e357e4fb8bc1cee1577db2516fb"
+      sha256 "ac6333986c6e3a6e1d07a0dfc5476e35f31ea64569562271ed8b3f72b6d82b77"
     end
     on_arm do
       url "https://github.com/RoboNET/YandexTrackerCLI/releases/download/v#{version}/yt-linux-arm64.tar.gz"
-      sha256 "61c42e23649c47833210434c3807a7554871b455b5a96a4dcbcfdd5b8ebccf0c"
+      sha256 "2d77c9052dbe0ec8e96773869db24a1a62983401ba75e14dd14d494058d853e9"
     end
   end
 
